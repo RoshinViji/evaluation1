@@ -1,0 +1,59 @@
+body{
+ 
+    background-image: url(images/planes.jpg);
+ 
+    background-repeat: no-repeat;
+ 
+    background-size: 100% 100%;
+ 
+    background-attachment: fixed;
+ 
+     
+ 
+  }
+ 
+ 
+ 
+.formtxt{
+ 
+    text-align: center;
+ 
+    margin: 0%;
+ 
+}
+ 
+.formtxt h1{
+ 
+    color:  brown;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+    font-size :25px;
+ 
+    margin-bottom: 20px;
+ 
+}
+ 
+.formtxt p{
+ 
+    color:brown;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+    font-size: small;
+ 
+}
+ 
+.container{
+ 
+    width: 500px;
+ 
+ 
+ 
+    background-color:rgb(227, 245, 252);
+ 
+    border-radius: 5px;
+ 
+    position: relative;
+ 
+}

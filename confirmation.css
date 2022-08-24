@@ -1,0 +1,49 @@
+.confirmation{
+
+text-align: center;
+color: brown;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+.click{
+    text-align: center;
+    padding-top: 50px;
+}
+#button{  
+    
+    background-color: rgb(173, 215, 241);
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 20px;
+    font-size: medium;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.column{
+    text-align:center;
+   display: inline-block;
+   padding-left: 750px;
+    
+    color: rgb(226, 89, 89);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.info {
+    border-style: dashed;
+    border-color: black;
+    
+}
+.card{  
+    border-style: dashed;
+    border-color: black;
+}
+#newPassenger{
+    border-style: dashed;
+    border-color: black;
+}

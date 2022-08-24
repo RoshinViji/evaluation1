@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Go Airlines</title>
+    <link rel="icon" type="image/x-icon" href="/images/image2.png"/>
+    <link rel="stylesheet" href="booking.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+      <main>
+           <div class="container">
+              <div class="formtxt">
+                  <h1>Book Air Tickets</h1>
+                  <p>Fly anywhere.Fly everywhere</p>
+                  <form action="confirmation.html" class="needs-validation" novalidate onsubmit="passvalue()">  
+                      <div class="mb-3">
+                          <label for="firstName" class="form-label">First Name</label>
+                          <input type="text" class="form-control" maxlength="20" pattern="[a-zA-Z]+" id="firstName" required >
+                          <div class="invalid-feedback">
+                              Please enter your first name
+                          </div>
+                      </div>
+ 
+                        <div class="mb-3">
+                          <div class="content">
+                          <label for="lastName" class="form-label">Last Name</label>
+                          <input type="text" class="form-control" maxlength="20"  pattern="[a-zA-Z]+" id="lastName" required>
+                          <div class="invalid-feedback">
+                          Please enter your last name
+                        </div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="age" class="form-label">Age</label>
+                          <input type="number" class="form-control"  id="age"  maxlength="3" pattern="[1-9]{3}" min="18" max="105"     required>
+                          <div class="invalid-feedback">
+                          Please enter your age
+                        </div>
+ 
+                     <div id="rad">
+                      <div class="mb-3">
+                        <div class="content">
+                        <span>Gender :</span>
+                        <br>
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="Male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="Female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="Other">
+                        <label for="other">Other</label>
+                    </div>
+                    </div>
+                     </div>
+ 
+                      <div class="mb-3">
+                        <div class="content">
+                      <label for="emailId";>Email address</label>
+                      <input id="emailId" class="form-control" type="email" required aria-describedby="emailHelp"/>
+                      <div class="invalid-feedback">
+                      Please enter your vaild email Id
+                        </div>
+                        </div>
+ 
+                      <div class="mb-3">
+                        <div class="content">
+                      <label for="phoneNumber";>Phone Number</label>
+                     
+                        <input type="text" id="phoneNumber"  class="form-control"  maxlength="10"  pattern="[0-9]{10}"  required/>
+                       
+                     
+                      <div class="invalid-feedback">
+                      Please enter your phoneNumber
+                        </div>
+                        </div>
+                        </div>
+                    
+                        <div id="button1">
+ 
+                          <button type="submit" class="btn btn-primary">Book Now</button>
+                          </div>    
+                          </div>
+                        </form >
+                     
+                     
+                      <input type="checkbox" id="addpassenger" name="addpassenger" onclick="callvalue()" value="yes">
+                      <label for="addpassenger";><strong>Add Passenger</strong> </label>  
+                                
+   
+                      <form style="display:none"  id="new" action="confirmation.html" onsubmit="getvalue()"  >
+
+                        <div id="newPassengers">
+                          
+                       
+                           
+                              <label for="firstName1" class="form-label">First Name</label>
+                              <input type="text"  class="form-control"  id="firstName1"  maxlength="20"  required >
+                             
+
+                              
+                              <label for="lastName1" class="form-label">Last Name</label>
+                              <input type="text"   class="form-control" id="lastName1"  maxlength="20" required>
+                              
+                              
+                              <label for="age1" class="form-label">Age</label>
+                              <input type="number"  class="form-control"  id="age1" maxlength="3" pattern="[1-9]{3}" min="18" max="150" required>
+                               
+                              <div id="radio">
+                              <span>Gender :</span>
+                              <br>
+                              <input type="radio" id="male1" name="gender" value="Male">
+                              <label for="Male">Male</label><br>
+                              <input type="radio" id="female1" name="gender" value="Female">
+                              <label for="female">Female</label><br>
+                              <input type="radio" id="other1" name="gender" value="Other">
+                              <label for="other">Other</label>
+                              </div>
+                            </div>
+                            <div id="button2">
+ 
+                              <button type="submit" class="btn btn-primary">Book Now</button>
+                              </div>    
+                              </div>
+                          </div>
+
+                          </div>
+
+                             
+                        
+
+                     </form>
+                    
+                     
+                        
+                        
+                      
+                      
+              </div>
+           </div>
+      </main>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script link src="booking.js"></script>
+  
+</html>
+   
+ 
+ 
+ 
+
