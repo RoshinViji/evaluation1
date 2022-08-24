@@ -45,15 +45,9 @@ body{
 }
  
 .container{
- 
-    width: 500px;
- 
- 
- 
+   
     background-color:rgb(227, 245, 252);
- 
-    border-radius: 5px;
- 
     position: relative;
+
  
 }
