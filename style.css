@@ -5,11 +5,16 @@
     border-radius: 50px;
     height: 3cm;
     width: 4cm;
+    
 }
 
 #sitename{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;
+    padding-left: 625px;
+     padding-top: 50px;
+    font-weight: bold;
+    position: fixed;
  
 }
 
@@ -64,6 +69,8 @@ header #image,header #navigate{
 }
 .desc{
     line-height: 1.5rem;
+    color:  black;
+
  
 }
 .banner{
